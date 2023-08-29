@@ -5,6 +5,7 @@ body {
     font-family: "Roboto", sans-serif;
     font-family: "Raleway", sans-serif;
     
+    
 }
 
 .logo {
@@ -17,6 +18,7 @@ body {
         letter-spacing: 0.54px;
         text-transform: uppercase;
         font-family: "Raleway", sans-serif;
+        
 }
 .studio {
     color: #2E2F42;
@@ -44,4 +46,3 @@ body {
         letter-spacing: 0.02em;
         color: #2E2F42;
 }
-.listheader
