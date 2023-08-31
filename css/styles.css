@@ -48,6 +48,9 @@ body {
 .listheader:hover {
     color: #404bbf;
 }
+.listheader:focus {
+    color: #404bbf;
+}
 .adress{
     font-style: normal;
 }
@@ -60,5 +63,8 @@ body {
         font-style: normal;
 }
 .adresslist:hover {
+    color: #404bbf;
+}
+.adresslist:focus {
     color: #404bbf;
 }
