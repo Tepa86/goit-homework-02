@@ -68,3 +68,32 @@ body {
 .adresslist:focus {
     color: #404bbf;
 }
+.herosection {
+background-color: #2E2F42;
+}
+.herotitle {
+    color: #FFF;
+        text-align: center;
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 60px;
+        letter-spacing: 1.12px;
+}
+.herobutton {
+    background-color: #4D5AE5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+
+}
+.herobutton:hover {
+    background-color: #404BBF;
+
+}
+.herobutton:focus {
+    background-color: #404BBF;
+}
