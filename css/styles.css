@@ -1,12 +1,18 @@
 body {
-    font-family: "Roboto";
     color: #434455;
     background-color: #FFFFFF;
     font-family: "Roboto", sans-serif;
-   
-    
-    
-}
+    font-size: 16px;
+   }
+   a {
+    text-decoration: none;
+   }
+   ul {
+       list-style-type: none;
+   }
+   button {
+       font-family: inherit;
+   }
 
 .logo {
     color: #4D5AE5;
@@ -14,35 +20,36 @@ body {
         font-style: normal;
         font-weight: 700;
         line-height: 1.17;
-        /* 116.667% */
         letter-spacing: 0.54px;
         text-transform: uppercase;
         font-family: "Raleway", sans-serif;
         
-}
+        }
+        
 .studio {
     color: #2E2F42;
-        font-family: Raleway;
+        font-family: "Raleway", sans-serif;
         font-size: 18px;
         font-style: normal;
         font-weight: 700;
-        line-height: 21px;
-        /* 116.667% */
+        line-height: 1,17;
         letter-spacing: 0.54px;
         text-transform: uppercase;
 }
 .listheader {
-    color: var(--navyblue, #2E2F42);
-    
-        /* Body Medium */
+    color:#2E2F42;
         font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px;
+            letter-spacing: 0.32px;
+}
+.adresslist {
+    color: #434455;
         font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
+        font-weight: 400;
         line-height: 24px;
-        /* 150% */
         letter-spacing: 0.32px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #2E2F42;
+        font-style: normal;
 }
