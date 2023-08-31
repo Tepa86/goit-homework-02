@@ -117,14 +117,14 @@ background-color: #2E2F42;
 .personal-title {
     font-size: 36px;
     line-height: 1.11;
-    text-align: center
+    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
 
 }
 .personal-backgraund {
-    background-color: ;
+    background-color: #FFFFFF;
 }
 .personal-text {
     font-size: 16px;
