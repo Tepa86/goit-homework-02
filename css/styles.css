@@ -62,7 +62,7 @@ body {
         letter-spacing: 0.32px;
         font-style: normal;
 }
-.adresslist:hover {
+.adresslist:hover{
     color: #404bbf;
 }
 .adresslist:focus {
