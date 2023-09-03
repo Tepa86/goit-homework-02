@@ -1,6 +1,15 @@
+:root {
+    --c-button: #4D5AE5;
+    --c-primary-text: #2E2F42 ;
+    --c-background: #2E2F42;
+    --c-background-light: #FFFFFF;
+    --c-paragraf-text: #434455;
+    --c-bacgraund-dark: #F4F4FD;
+}
+
 body {
-    color: #434455;
-    background-color: #FFFFFF;
+    color: var(--c-paragraf-text);
+    background-color: var(--c-background-light);
     font-family: "Roboto", sans-serif;
     font-size: 16px;
    }
@@ -13,7 +22,35 @@ body {
    button {
        font-family: inherit;
    }
+   h1 {
+    color: #FFF;
+        text-align: center;
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.07;
+        letter-spacing: 1.12px;
+   }
+h2{
+    font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: var(--c-primary-text);
 
+}
+h3{
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: var(--c-primary-text);
+}
+p{
+    line-height: 1.5;
+        letter-spacing: 0.02em;
+}
 .logo {
     color: #4D5AE5;
         font-size: 18px;
@@ -37,7 +74,7 @@ body {
         text-transform: uppercase;
 }
 .listheader {
-    color:#2E2F42;
+    color:var(--c-primary-text);
         font-family: Roboto;
             font-size: 16px;
             font-style: normal;
@@ -70,19 +107,12 @@ body {
 }
 /* HERO SECTION */
 .herosection {
-background-color: #2E2F42;
+background-color: var(--c-background);
 }
-.herotitle {
-    color: #FFF;
-        text-align: center;
-        font-size: 56px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 1.07;
-        letter-spacing: 1.12px;
-}
+
+
 .herobutton {
-    background-color: #4D5AE5;
+    background-color: var(--c-button);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -99,70 +129,45 @@ background-color: #2E2F42;
     background-color: #404BBF;
 }
 .tehnologysection {
-    background: #FFF;
+    background: var(--c-background-light);
 }
-.tehnology_title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-} 
-.tehnology_text {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+.visually-hidden {
+    position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
 }
-/* END OF TEHNOLOGY section */
-/* Start Personal sec */
-.personal-section {
-    background-color: #F4F4FD;
-}
-.personal-title {
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
 
+
+
+.personal-section {
+    background-color: var(--c-bacgraund-dark);
 }
+
+
+
 .personal-backgraund {
-    background-color: #FFFFFF;
+    background-color: var(--c-background-light);
 }
-.personal-text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-/* END PERSONAL START PORTFOLIO */
-.portfoliomain-title {
-        font-size: 36px;
-        line-height: 1.11;
-        text-align: center;
-        letter-spacing: 0.02em;
-        text-transform: capitalize;
-        color: #2e2f42;
-}
-.portfolio-text {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-.portfoliosecondtitle {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
-}
+
+
+
+
+/* FOOTER */
 .footertext {
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
 }
-/* END PORTFOLIO */
-/* FOOTER */
+
 .footer-backgraund {
-    background-color: #2e2f42;
+    background-color: var(--c-background);
 }
 .logo-footer {
     color: #4D5AE5;
